@@ -1,0 +1,10 @@
+F:\5th sem\Practical\Tcpserver\bin\Debug\Tcpserver.exe.config
+F:\5th sem\Practical\Tcpserver\bin\Debug\Tcpserver.exe
+F:\5th sem\Practical\Tcpserver\bin\Debug\Tcpserver.pdb
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.csprojAssemblyReference.cache
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.Form1.resources
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.Properties.Resources.resources
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.csproj.GenerateResource.cache
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.csproj.CoreCompileInputs.cache
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.exe
+F:\5th sem\Practical\Tcpserver\obj\Debug\Tcpserver.pdb
