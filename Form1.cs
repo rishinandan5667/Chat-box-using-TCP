@@ -26,6 +26,8 @@ namespace Tcpserver
         {
             InitializeComponent();
 
+            //automatically assigning the IP address
+
             IPAddress[] localip = Dns.GetHostAddresses(Dns.GetHostName());
 
             foreach (IPAddress address in localip)
@@ -37,6 +39,7 @@ namespace Tcpserver
             }
         }
 
+        //to have connection with the client
         private void button1_Click(object sender, EventArgs e)
         {
             TcpListener listner = new TcpListener(IPAddress.Any, int.Parse(textBox2.Text));
@@ -50,6 +53,7 @@ namespace Tcpserver
 
         }
 
+        //background work of receiving message from client
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             while (client.Connected)
@@ -71,6 +75,8 @@ namespace Tcpserver
             }
         }
 
+
+        //background work of sending message to client
         private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
         {
             if (client.Connected)
@@ -89,6 +95,8 @@ namespace Tcpserver
             backgroundWorker2.CancelAsync();
         }
 
+
+        //after typing the message in textbox to send from server
         private void button2_Click(object sender, EventArgs e)
         {
             if(textBox3.Text != "")
